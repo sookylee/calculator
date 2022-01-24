@@ -10,7 +10,9 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("Please enter a expression: (ex> 1 + 2) ");
+	printf("Please enter a expression: ");
+	printf("입력 해주세요. (ex> 1 + 2) ");
+	
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
