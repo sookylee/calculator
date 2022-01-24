@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("Please enter a expression: ");
+	printf("항이 두개인 이항식을 입력하그라잉 ! : ");
 	printf("입력 해주세요. (ex> 1 + 2) ");
 	
 	scanf("%d %c %d", &number1, &operator, &number2);
