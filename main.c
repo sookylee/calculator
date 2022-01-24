@@ -11,6 +11,8 @@ int main(int argc, char* argv[])
 	char operator;
 	
 	printf("항이 두개인 이항식을 입력하그라잉 ! : ");
+	printf("입력 해주세요. (ex> 1 + 2) ");
+	
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
